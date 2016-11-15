@@ -1,0 +1,10 @@
+<ion-view view-title="Subscriptions">
+  <ion-content>
+    <ion-list>
+      <ion-item class="item" ng-repeat="sub in subscriptions" type="item-text-wrap">
+        <h2>{{sub.Country}} - {{sub.Period}}</h2>
+        <p>{{sub.Sector}} / {{sub.ReportType}}</p>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

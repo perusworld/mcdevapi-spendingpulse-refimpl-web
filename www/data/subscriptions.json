@@ -1,0 +1,38 @@
+{
+    "SubscriptionList": {
+        "Count": "4",
+        "Message": "Success",
+        "SubscriptionArray": {
+            "Subscription": [
+                {
+                    "Country": "US",
+                    "ReportType": "reportA",
+                    "Period": "Weekly",
+                    "Sector": "sectorA",
+                    "Ecomm": "Y"
+                },
+                {
+                    "Country": "US",
+                    "ReportType": "sectorB",
+                    "Period": "Weekly",
+                    "Sector": "sectorB",
+                    "Ecomm": "Y"
+                },
+                {
+                    "Country": "US",
+                    "ReportType": "Gas",
+                    "Period": "Weekly",
+                    "Sector": "Gas",
+                    "Ecomm": "N"
+                },
+                {
+                    "Country": "US",
+                    "ReportType": "Gas",
+                    "Period": "Monthly",
+                    "Sector": "Gas",
+                    "Ecomm": "N"
+                }
+            ]
+        }
+    }
+}

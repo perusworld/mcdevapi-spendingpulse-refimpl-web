@@ -1,0 +1,15 @@
+<ion-view>
+  <ion-nav-title> US Gasoline Weekly </ion-nav-title>
+  <ion-content>
+    <ion-list>
+      <ion-item class="item" ng-repeat="cData in chartData" type="item-text-wrap">
+        <h2>{{cData.title}}</h2>
+        <nvd3-line-plus-bar-chart data="cData.data" id="gasWeeklyChart{{$index}}" staggerLabels="true" showXAxis="true" showYAxis="true"
+          interactive="true" tooltips="true" reduceXTicks="true" showControls="true" showLegend="true" clipEdge="true" height="{{chart.height}}"
+          xAxisTickFormat="xAxisTickFormat()" noData="Please wait loading data...">
+          <svg></svg>
+        </nvd3-line-plus-bar-chart>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

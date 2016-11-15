@@ -1,0 +1,10 @@
+<ion-view view-title="Parameters">
+  <ion-content>
+    <ion-list>
+      <ion-item class="item" ng-repeat="prm in parameters" type="item-text-wrap">
+        <h2>{{prm.ProductLine}} - {{prm.Period}}</h2>
+        <p>{{prm.Sector}} / {{prm.ReportType}}</p>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

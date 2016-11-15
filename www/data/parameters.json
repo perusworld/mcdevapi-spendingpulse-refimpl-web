@@ -1,0 +1,46 @@
+{
+    "ParameterList": {
+        "Count": "4",
+        "Message": "Success",
+        "ParameterArray": {
+            "Parameter": [
+                {
+                    "ProductLine": "US Gasoline Weekly",
+                    "PublicationCoveragePeriod": "Week",
+                    "Country": "US",
+                    "ReportType": "Gas",
+                    "Period": "Weekly",
+                    "Sector": "Gas",
+                    "Ecomm": "Y"
+                },
+                {
+                    "ProductLine": "US Gasoline Monthly",
+                    "PublicationCoveragePeriod": "Month",
+                    "Country": "US",
+                    "ReportType": "Gas",
+                    "Period": "Monthly",
+                    "Sector": "Gas",
+                    "Ecomm": "Y"
+                },
+                {
+                    "ProductLine": "Weekly Sales",
+                    "PublicationCoveragePeriod": "Week",
+                    "Country": "US",
+                    "ReportType": "reportA",
+                    "Period": "Weekly",
+                    "Sector": "sectorA",
+                    "Ecomm": "Y"
+                },
+                {
+                    "ProductLine": "Weekly Sales",
+                    "PublicationCoveragePeriod": "Week",
+                    "Country": "US",
+                    "ReportType": "reportB",
+                    "Period": "Weekly",
+                    "Sector": "sectorB",
+                    "Ecomm": "Y"
+                }
+            ]
+        }
+    }
+}
