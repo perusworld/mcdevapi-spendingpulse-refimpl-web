@@ -4,10 +4,14 @@ angular.module('spulse.api', [])
     .service('SPulseApi', ['$http', function ($http) {
         var ret = {
             getJson: function (file, callback) {
-                $http.get('/data/' + file).then(function successCallback(response) {
+                $http.get('/mcdevapi-spendingpulse-refimpl-web/data/' + file).then(function successCallback(response) {
                     callback(response.data)
                 }, function errorCallback(response) {
-                    callback(null);
+                    $http.get('/data/' + file).then(function successCallback(response) {
+                        callback(response.data)
+                    }, function errorCallback(response) {
+                        callback(null);
+                    });
                 });
             },
             spendingPulse: function (req, callback) {
